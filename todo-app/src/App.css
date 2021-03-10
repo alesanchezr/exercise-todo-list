@@ -1,0 +1,36 @@
+.App-link {
+  color: #61dafb;
+}
+
+.app {
+  padding-left: 15%;
+  padding-right: 15%;
+  height: 100vh;
+  background-color: rgb(20, 19, 19);
+}
+
+.todo {
+  align-items: left;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+}
+
+#titulo { 
+    color: lightgray;     
+    text-align: center;
+}
+
+/* If the screen size is 601px or more, set the font-size of <div> to 80px */
+@media only screen and (min-width: 601px) {
+  #titulo {   
+    font-size:  6pc;
+   }
+}
+
+/* If the screen size is 600px or less, set the font-size of <div> to 30px */
+@media only screen and (max-width: 600px) {
+    #titulo {    
+        font-size:  4pc;    
+    }
+}
